@@ -13,6 +13,7 @@ Sub_onReceivePosUpdateXYZ(PosX, PosY, PosZ)
                ScriptGO.SetSQL("Quest") = "Talk_Quest"
      ElseIF CheckMapGPSdataUse() = ("ElarandorPortToPortal GPS.txt")
           IF CheckPosUpdateXYZ(PosX,PosY,PosZ) = "32773,31850,7"
+               
      ElseIF CheckMapGPSdataUse() = ("ElarandorPortalToPotion GPS.txt")
           IF CheckPosUpdateXYZ(PosX,PosY,PosZ) = "32776,31846,7"
                GoToSUB.SUB_BuyPotion()
